@@ -423,3 +423,18 @@ header h1 {
 header h1::first-letter {
     color: #c8e6c9;
 }
+
+/* Organização do conteúdo */
+section h2 {
+    color: #234d20;
+    border-bottom: 2px solid #dcebd7;
+    padding-bottom: 8px;
+}
+
+section > p {
+    max-width: 900px;
+}
+
+section ul {
+    line-height: 1.9;
+}
