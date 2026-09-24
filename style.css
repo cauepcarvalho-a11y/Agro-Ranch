@@ -282,3 +282,43 @@ button:hover {
     }
 
 }
+
+/* =========================================
+   EFEITOS DOS LINKS
+   ========================================= */
+
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #c8e6c9;
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   EFEITO DOS CARDS
+   ========================================= */
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   EFEITO DO BOTÃO
+   ========================================= */
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #397a34;
+    transform: scale(1.03);
+}
