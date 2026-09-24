@@ -373,3 +373,28 @@ th {
 tr:nth-child(even) {
     background-color: #eef4eb;
 }
+
+/* =========================================
+   MELHORIAS NA TABELA
+   ========================================= */
+
+.tabela-agro {
+    overflow-x: auto;
+}
+
+table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    font-size: 16px;
+}
+
+td {
+    font-size: 15px;
+}
+
+tr:hover {
+    background-color: #dcebd7;
+}
