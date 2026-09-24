@@ -26,6 +26,7 @@
 
     <main>
 
+        <!-- INÍCIO -->
         <section id="inicio" class="imagem-fundo">
 
             <h2 id="banner-agro">Bem-vindo ao AgroRanch</h2>
@@ -43,49 +44,101 @@
         </section>
 
 
+        <!-- AGRONOMIA -->
         <section id="agronomia">
 
-    <h2>Agronomia</h2>
+            <h2>Agronomia</h2>
 
-    <p>
-        A agronomia reúne conhecimentos científicos e técnicos
-        aplicados à produção agrícola e ao desenvolvimento do campo.
-    </p>
+            <p>
+                A agronomia reúne conhecimentos científicos e técnicos
+                aplicados à produção agrícola e ao desenvolvimento do campo.
+            </p>
 
-    <ul>
-        <li>Manejo do solo</li>
-        <li>Produção agrícola</li>
-        <li>Irrigação</li>
-        <li>Sustentabilidade</li>
-    </ul>
-
-    <div class="links-agro">
-
-        <p>
-            Saiba mais sobre agronomia no
-            <a 
-                href="https://www.embrapa.br/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                site da Embrapa
-            </a>.
-        </p>
-
-        <p>
-            <a 
-                href="guia-agronomia.pdf"
-                download
-            >
-                📥 Baixar Guia de Agronomia
-            </a>
-        </p>
-
-    </div>
-
-</section>
+            <ul>
+                <li>Manejo do solo</li>
+                <li>Produção agrícola</li>
+                <li>Irrigação</li>
+                <li>Sustentabilidade</li>
+            </ul>
 
 
+            <!-- LINKS -->
+            <div class="links-agro">
+
+                <p>
+                    Saiba mais sobre agronomia no
+                    <a
+                        href="https://www.embrapa.br/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        site da Embrapa
+                    </a>.
+                </p>
+
+                <p>
+                    <a
+                        href="documentos/guia-agronomia.pdf"
+                        download
+                    >
+                        📥 Baixar Guia de Agronomia
+                    </a>
+                </p>
+
+            </div>
+
+
+            <!-- TABELA -->
+            <div class="tabela-agro">
+
+                <h3>Exemplos de culturas agrícolas</h3>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Cultura</th>
+                            <th>Uso principal</th>
+                            <th>Importância</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Soja</td>
+                            <td>Óleo e ração</td>
+                            <td>Alta</td>
+                        </tr>
+
+                        <tr>
+                            <td>Milho</td>
+                            <td>Alimentação e ração</td>
+                            <td>Alta</td>
+                        </tr>
+
+                        <tr>
+                            <td>Café</td>
+                            <td>Bebida</td>
+                            <td>Alta</td>
+                        </tr>
+
+                        <tr>
+                            <td>Algodão</td>
+                            <td>Fibras</td>
+                            <td>Alta</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- TECNOLOGIA -->
         <section id="tecnologia" class="destaques">
 
             <h2>Tecnologia no Campo</h2>
@@ -118,6 +171,7 @@
         </section>
 
 
+        <!-- CURIOSIDADE -->
         <aside>
 
             <h2>Curiosidade</h2>
@@ -130,94 +184,119 @@
         </aside>
 
 
+        <!-- CONTATO -->
         <section id="contato">
 
             <h2>Entre em contato</h2>
 
-          <form>
+            <form>
 
-    <label for="nome">Nome:</label>
-    <input 
-        type="text" 
-        id="nome" 
-        name="nome" 
-        placeholder="Digite seu nome"
-        required
-    >
+                <label for="nome">Nome:</label>
 
-    <br><br>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required
+                >
 
-    <label for="email">E-mail:</label>
-    <input 
-        type="email" 
-        id="email" 
-        name="email" 
-        placeholder="Digite seu e-mail"
-        required
-    >
+                <br><br>
 
-    <br><br>
 
-    <label for="telefone">Telefone:</label>
-    <input 
-        type="tel" 
-        id="telefone" 
-        name="telefone" 
-        placeholder="(00) 00000-0000"
-        pattern="[0-9]{10,11}"
-    >
+                <label for="email">E-mail:</label>
 
-    <br><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    required
+                >
 
-    <label for="assunto">Assunto:</label>
+                <br><br>
 
-    <select id="assunto" name="assunto" required>
-        <option value="">Selecione uma opção</option>
-        <option value="agronomia">Agronomia</option>
-        <option value="tecnologia">Tecnologia</option>
-        <option value="agricultura">Agricultura</option>
-    </select>
 
-    <br><br>
+                <label for="telefone">Telefone:</label>
 
-    <p>Tipo de contato:</p>
+                <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    placeholder="(00) 00000-0000"
+                    pattern="[0-9]{10,11}"
+                >
 
-    <label>
-        <input type="radio" name="tipo" value="duvida">
-        Dúvida
-    </label>
+                <br><br>
 
-    <label>
-        <input type="radio" name="tipo" value="sugestao">
-        Sugestão
-    </label>
 
-    <br><br>
+                <label for="assunto">Assunto:</label>
 
-    <label for="mensagem">Mensagem:</label>
+                <select
+                    id="assunto"
+                    name="assunto"
+                    required
+                >
+                    <option value="">Selecione uma opção</option>
+                    <option value="agronomia">Agronomia</option>
+                    <option value="tecnologia">Tecnologia</option>
+                    <option value="agricultura">Agricultura</option>
+                </select>
 
-    <br>
+                <br><br>
 
-    <textarea 
-        id="mensagem" 
-        name="mensagem" 
-        rows="5" 
-        cols="40"
-        placeholder="Digite sua mensagem"
-        required
-    ></textarea>
 
-    <br><br>
+                <p>Tipo de contato:</p>
 
-    <button type="submit">Enviar</button>
+                <label>
+                    <input
+                        type="radio"
+                        name="tipo"
+                        value="duvida"
+                    >
+                    Dúvida
+                </label>
 
-</form>
+                <label>
+                    <input
+                        type="radio"
+                        name="tipo"
+                        value="sugestao"
+                    >
+                    Sugestão
+                </label>
+
+                <br><br>
+
+
+                <label for="mensagem">Mensagem:</label>
+
+                <br>
+
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="5"
+                    cols="40"
+                    placeholder="Digite sua mensagem"
+                    required
+                ></textarea>
+
+                <br><br>
+
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
 
         </section>
 
     </main>
 
 
+    <!-- RODAPÉ -->
     <footer>
 
         <p>

@@ -339,3 +339,37 @@ button:hover {
 .links-agro a:hover {
     color: #397a34;
 }
+
+/* =========================================
+   TABELA
+   ========================================= */
+
+.tabela-agro {
+    margin-top: 30px;
+}
+
+.tabela-agro h3 {
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #b7c5b2;
+    text-align: left;
+}
+
+th {
+    background-color: #234d20;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eef4eb;
+}
