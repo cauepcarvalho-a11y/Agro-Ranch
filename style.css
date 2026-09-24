@@ -452,3 +452,12 @@ footer p {
 footer p::first-letter {
     color: #c8e6c9;
 }
+
+/* Acabamento final das seções */
+section {
+    transition: 0.3s;
+}
+
+section:hover {
+    box-shadow: 0 4px 12px rgba(35, 77, 32, 0.12);
+}
