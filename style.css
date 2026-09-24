@@ -322,3 +322,20 @@ button:hover {
     background-color: #397a34;
     transform: scale(1.03);
 }
+
+/* =========================================
+   LINKS DO AGRO
+   ========================================= */
+
+.links-agro {
+    margin-top: 25px;
+}
+
+.links-agro a {
+    color: #234d20;
+    font-weight: bold;
+}
+
+.links-agro a:hover {
+    color: #397a34;
+}
