@@ -398,3 +398,18 @@ td {
 tr:hover {
     background-color: #dcebd7;
 }
+
+/* Acessibilidade do formulário */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #397a34;
+    border-color: #234d20;
+}
+
+/* Melhor visualização dos campos obrigatórios */
+input:required,
+select:required,
+textarea:required {
+    background-color: #fbfdf9;
+}
