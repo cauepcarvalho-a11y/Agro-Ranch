@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,8 +26,9 @@
 
     <main>
 
-        <section id="inicio">
-            <h2>Bem-vindo ao AgroRanch</h2>
+        <section id="inicio" class="imagem-fundo">
+
+            <h2 id="banner-agro">Bem-vindo ao AgroRanch</h2>
 
             <p>
                 O <strong>AgroRanch</strong> é um site dedicado à agronomia,
@@ -37,9 +39,11 @@
                 Nosso objetivo é apresentar informações sobre produção rural,
                 sustentabilidade e inovação no agronegócio.
             </p>
+
         </section>
 
         <section id="agronomia">
+
             <h2>Agronomia</h2>
 
             <p>
@@ -53,12 +57,15 @@
                 <li>Irrigação</li>
                 <li>Sustentabilidade</li>
             </ul>
+
         </section>
 
-        <section id="tecnologia">
+        <section id="tecnologia" class="destaques">
+
             <h2>Tecnologia no Campo</h2>
 
-            <article>
+            <div class="card destaque-verde">
+
                 <h3>Agricultura de precisão</h3>
 
                 <p>
@@ -66,22 +73,40 @@
                     controlar máquinas e melhorar o aproveitamento dos
                     recursos utilizados na produção.
                 </p>
-            </article>
+
+            </div>
+
+            <div class="card destaque-amarelo">
+
+                <h3>Máquinas agrícolas</h3>
+
+                <p>
+                    Máquinas modernas ajudam o produtor a aumentar a
+                    produtividade e realizar as atividades do campo
+                    com maior eficiência.
+                </p>
+
+            </div>
+
         </section>
 
         <aside>
+
             <h2>Curiosidade</h2>
 
             <p>
                 A agricultura de precisão pode utilizar sensores, GPS e
                 sistemas digitais para auxiliar o produtor rural.
             </p>
+
         </aside>
 
         <section id="contato">
+
             <h2>Entre em contato</h2>
 
             <form>
+
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome">
 
@@ -93,6 +118,7 @@
                 <br><br>
 
                 <label for="assunto">Assunto:</label>
+
                 <select id="assunto" name="assunto">
                     <option value="agronomia">Agronomia</option>
                     <option value="tecnologia">Tecnologia</option>
@@ -114,14 +140,19 @@
                 <br><br>
 
                 <button type="submit">Enviar</button>
+
             </form>
+
         </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2026 AgroRanch - Agronomia e Tecnologia no Campo.</p>
+        <p>
+            &copy; 2026 AgroRanch - Agronomia e Tecnologia no Campo.
+        </p>
     </footer>
 
 </body>
+
 </html>
