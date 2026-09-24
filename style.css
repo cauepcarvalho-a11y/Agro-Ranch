@@ -438,3 +438,17 @@ section > p {
 section ul {
     line-height: 1.9;
 }
+
+/* Melhorias no rodapé */
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+footer p::first-letter {
+    color: #c8e6c9;
+}
